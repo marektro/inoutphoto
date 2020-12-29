@@ -7,23 +7,28 @@ const DroneGalleryWrapper = styled.div`
     flex-direction: column;
     align-items: center;
     width: 100%;
-    // height: 100vh;
+    margin-top: 10px;
     background: black;
 `;
 
-const DroneGalleryText = styled.div`
-    background: rgba(0,0,0,0.8);
-    padding: 20px;
+const DroneGalleryTitle = styled.div`
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 40px 20px 40px;
     max-width: 800px;
-    border-bottom-right-radius: 40px;
-    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
     position: sticky;
     top: 90px;
+`;
+
+const DroneGalleryDescription = styled.div`
+    max-width: 800px;
 
     p {
         color: white;
         text-align: center;
         font-size: 1.5rem;
+        margin-top: 0;
     }
 `;
 
@@ -58,13 +63,15 @@ const DroneGalleryGrid = styled.ul`
 
 const DroneGallery = () => (
     <DroneGalleryWrapper>
-        <DroneGalleryText>
+        <DroneGalleryTitle>
             <h2>Zdjęcia i Filmy z Drona</h2>
+        </DroneGalleryTitle>
+        <DroneGalleryDescription>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa.
                 qui officia deserunt mollit anim id est laborum.</p>
-        </DroneGalleryText>
+        </DroneGalleryDescription>
         <DroneGalleryGrid>
             <li>
                 <div>

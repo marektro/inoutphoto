@@ -11,19 +11,24 @@ const VirtualToursGalleryWrapper = styled.div`
     background: black;
 `;
 
-const VirtualToursGalleryText = styled.div`
-    background: rgba(0,0,0,0.8);
-    padding: 20px;
+const VirtualToursGalleryTitle = styled.div`
+background: rgba(0, 0, 0, 0.7);
+padding: 10px 40px 20px 40px;
+max-width: 800px;
+border-bottom-right-radius: 30px;
+border-bottom-left-radius: 30px;
+position: sticky;
+top: 90px;
+`;
+
+const VirtualToursGalleryDescription = styled.div`
     max-width: 800px;
-    border-bottom-right-radius: 40px;
-    border-bottom-left-radius: 40px;
-    position: sticky;
-    top: 90px;
 
     p {
         color: white;
         text-align: center;
         font-size: 1.5rem;
+        margin-top: 0;
     }
 `;
 
@@ -58,13 +63,15 @@ const VirtualToursGalleryGrid = styled.ul`
 
 const VirtualToursGallery = () => (
     <VirtualToursGalleryWrapper>
-        <VirtualToursGalleryText>
+        <VirtualToursGalleryTitle>
             <h2>Wirtualne Spacery 3D</h2>
+        </VirtualToursGalleryTitle>
+        <VirtualToursGalleryDescription>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa.
                 qui officia deserunt mollit anim id est laborum.</p>
-        </VirtualToursGalleryText>
+        </VirtualToursGalleryDescription>
         <VirtualToursGalleryGrid>
             <li>
                 <div>
