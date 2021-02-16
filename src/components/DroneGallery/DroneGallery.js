@@ -2,6 +2,27 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "gatsby";
 
+// import { graphql } from "gatsby"
+
+// const FuckingDrones = ({ data }) => <pre>{JSON.stringify(data, null, 4)}</pre>
+
+// export const query = graphql`
+
+// query HomeQuery {
+//   {
+//     allDatoCmsZdjecie {
+//       edges {
+//         node {
+//           plikZdjecia {
+//             path
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+// `;
+
 const DroneGalleryWrapper = styled.div`
     display: flex;
     flex-direction: column;
@@ -75,102 +96,102 @@ const DroneGallery = () => (
         <DroneGalleryGrid>
             <li>
                 <div>
-                    <img src="https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA22942_hires.jpg" alt="Juno's Latest Flyby of Jupiter Captures Two Massive Storms"/>
+                    <img src="https://www.datocms-assets.com/38509/1607702733-screenshot-2020-12-07-at-11-53-16.png" alt="Juno's Latest Flyby of Jupiter Captures Two Massive Storms"/>
                 </div>
             </li>
             <li>
                 <div>
-                    <img src="https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA23021_hires.jpg" alt="A first look at dunes"/>
+                    <img src="https://source.unsplash.com/random" alt="A first look at dunes"/>
                 </div>
             </li>
             <li>
                 <div>
-                    <img src="https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA23002_hires.jpg" alt="K2-138 6 Planets Artwork (Artist's Illustration) "/>
+                    <img src="https://source.unsplash.com/random" alt="K2-138 6 Planets Artwork (Artist's Illustration) "/>
                 </div>
             </li>
             <li>
                 <div>
-                    <img src="https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA21212_hires.jpg" alt="Small Prominences"/>
+                    <img src="https://source.unsplash.com/random" alt="Small Prominences"/>
                 </div>
             </li>
             <li>
                 <div>
-                    <img src="https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA22983_hires.jpg" alt="Ezinu Crater"/>
+                    <img src="https://source.unsplash.com/random" alt="Ezinu Crater"/>
                 </div>
             </li>
             <li>
                 <div>
-                    <img src="https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA22990_hires.jpg" alt="Polar Ice"/>
+                    <img src="https://source.unsplash.com/random" alt="Polar Ice"/>
                 </div>
             </li>
             <li>
                 <div>
-                    <img src="https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA22963_hires.jpg" alt="Jupiter"/>
+                    <img src="https://source.unsplash.com/random" alt="Jupiter"/>
                 </div>
             </li>
             <li>
                 <div>
-                    <img src="https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA22918_hires.jpg" alt="Star Gaia 17pbi Seen by Spitzer"/>
+                    <img src="https://source.unsplash.com/random" alt="Star Gaia 17pbi Seen by Spitzer"/>
                 </div>
             </li>
             <li>
                 <div>
-                    <img src="https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA22900_hires.jpg" alt="Another Cloudy Day"/>
+                    <img src="https://source.unsplash.com/random" alt="Another Cloudy Day"/>
                 </div>
             </li>
             <li>
                 <div>
-                    <img src="https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA22941_hires.jpg" alt="South Equatorial Belt Brown Barge Close-up"/>
+                    <img src="https://source.unsplash.com/random" alt="South Equatorial Belt Brown Barge Close-up"/>
                 </div>
             </li>
             <li>
                 <div>
-                    <img src="https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA22942_hires.jpg" alt="Juno's Latest Flyby of Jupiter Captures Two Massive Storms"/>
+                    <img src="https://source.unsplash.com/random" alt="Juno's Latest Flyby of Jupiter Captures Two Massive Storms"/>
                 </div>
             </li>
             <li>
                 <div>
-                    <img src="https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA23021_hires.jpg" alt="A first look at dunes"/>
+                    <img src="https://source.unsplash.com/random" alt="A first look at dunes"/>
                 </div>
             </li>
             <li>
                 <div>
-                    <img src="https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA23002_hires.jpg" alt="K2-138 6 Planets Artwork (Artist's Illustration) "/>
+                    <img src="https://source.unsplash.com/random" alt="K2-138 6 Planets Artwork (Artist's Illustration) "/>
                 </div>
             </li>
             <li>
                 <div>
-                    <img src="https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA21212_hires.jpg" alt="Small Prominences"/>
+                    <img src="https://source.unsplash.com/random" alt="Small Prominences"/>
                 </div>
             </li>
             <li>
                 <div>
-                    <img src="https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA22983_hires.jpg" alt="Ezinu Crater"/>
+                    <img src="https://source.unsplash.com/random" alt="Ezinu Crater"/>
                 </div>
             </li>
             <li>
                 <div>
-                    <img src="https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA22990_hires.jpg" alt="Polar Ice"/>
+                    <img src="https://source.unsplash.com/random" alt="Polar Ice"/>
                 </div>
             </li>
             <li>
                 <div>
-                    <img src="https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA22963_hires.jpg" alt="Jupiter"/>
+                    <img src="https://source.unsplash.com/random" alt="Jupiter"/>
                 </div>
             </li>
             <li>
                 <div>
-                    <img src="https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA22918_hires.jpg" alt="Star Gaia 17pbi Seen by Spitzer"/>
+                    <img src="https://source.unsplash.com/random" alt="Star Gaia 17pbi Seen by Spitzer"/>
                 </div>
             </li>
             <li>
                 <div>
-                    <img src="https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA22900_hires.jpg" alt="Another Cloudy Day"/>
+                    <img src="https://source.unsplash.com/random" alt="Another Cloudy Day"/>
                 </div>
             </li>
             <li>
                 <div>
-                    <img src="https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA22941_hires.jpg" alt="South Equatorial Belt Brown Barge Close-up"/>
+                    <img src="https://source.unsplash.com/random" alt="South Equatorial Belt Brown Barge Close-up"/>
                 </div>
             </li>
         </DroneGalleryGrid>

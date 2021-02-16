@@ -73,7 +73,7 @@ const InteriorsGallery = () => (
                 qui officia deserunt mollit anim id est laborum.</p>
         </InteriorsGalleryDescription>
         <InteriorsGalleryGrid>
-            <li>
+            {/* <li>
                 <div>
                     <img src="https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA22942_hires.jpg" alt="Juno's Latest Flyby of Jupiter Captures Two Massive Storms"/>
                 </div>
@@ -172,7 +172,7 @@ const InteriorsGallery = () => (
                 <div>
                     <img src="https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA22941_hires.jpg" alt="South Equatorial Belt Brown Barge Close-up"/>
                 </div>
-            </li>
+            </li> */}
         </InteriorsGalleryGrid>
     </InteriorsGalleryWrapper>
 );
