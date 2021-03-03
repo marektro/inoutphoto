@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "gatsby";
 
-// import { graphql } from "gatsby"
+import { graphql } from "gatsby"
 
 // const FuckingDrones = ({ data }) => <pre>{JSON.stringify(data, null, 4)}</pre>
 
