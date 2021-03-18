@@ -4,7 +4,7 @@ import { Link } from "gatsby";
 
 import { graphql } from "gatsby"
 
-// const FuckingDrones = ({ data }) => <pre>{JSON.stringify(data, null, 4)}</pre>
+// const Drones = ({ data }) => <pre>{JSON.stringify(data, null, 4)}</pre>
 
 // export const query = graphql`
 
@@ -33,6 +33,19 @@ const DroneGalleryWrapper = styled.div`
 `;
 
 const DroneGalleryTitle = styled.div`
+    /* background: rgba(0, 0, 0, 0.7); */
+    background: red;
+    padding: 10px 40px 20px 40px;
+    max-width: 800px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    /* position: sticky; */
+    top: 90px;
+`;
+
+const DroneGalleryDescription = styled.div`
+    max-width: 800px;
+
     background: rgba(0, 0, 0, 0.7);
     padding: 10px 40px 20px 40px;
     max-width: 800px;
@@ -40,10 +53,6 @@ const DroneGalleryTitle = styled.div`
     border-bottom-left-radius: 30px;
     position: sticky;
     top: 90px;
-`;
-
-const DroneGalleryDescription = styled.div`
-    max-width: 800px;
 
     p {
         color: white;
