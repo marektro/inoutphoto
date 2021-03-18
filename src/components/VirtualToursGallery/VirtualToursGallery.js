@@ -12,17 +12,26 @@ const VirtualToursGalleryWrapper = styled.div`
 `;
 
 const VirtualToursGalleryTitle = styled.div`
-background: rgba(0, 0, 0, 0.7);
-padding: 10px 40px 20px 40px;
-max-width: 800px;
-border-bottom-right-radius: 30px;
-border-bottom-left-radius: 30px;
-position: sticky;
-top: 90px;
+    /* background: rgba(0, 0, 0, 0.7); */
+    background: red;
+    padding: 10px 40px 20px 40px;
+    max-width: 800px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    /* position: sticky; */
+    top: 90px;
 `;
 
 const VirtualToursGalleryDescription = styled.div`
     max-width: 800px;
+
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 40px 20px 40px;
+    max-width: 800px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    position: sticky;
+    top: 90px;
 
     p {
         color: white;
